@@ -2,7 +2,7 @@ const express = require('express');
 const mongoose = require('mongoose');
 const routes = require('./routes/routes')
 const cors = require('cors');
-const mongoDbUrl = "mongodb+srv://Krypt9x:Ganteng77@cluster0.eiimrmo.mongodb.net/Practice";
+const mongoDbUrl = "mongodb+srv://UsernameUser:PasswordUser@cluster0.eiimrmo.mongodb.net/MyDatabase";
 
 
 mongoose.connect(mongoDbUrl);
